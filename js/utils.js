@@ -13,11 +13,11 @@ function determineWinner(player, enemy, currentTimerTimeoutId) {
     displayText.style.display = 'flex';
 
     if (player.health === enemy.health) {
-        displayText.innerHTML = 'Tie';
+        displayText.innerHTML = 'palhaçada quem ganhou foi a emily';
     } else if (player.health > enemy.health) {
-        displayText.innerHTML = 'Player 1 Wins!';
+        displayText.innerHTML = 'te matei mais te amo ta S2!';
     } else if (enemy.health > player.health) {
-        displayText.innerHTML = 'Player 2 Wins!';
+        displayText.innerHTML = 'emily ganhou';
     }
 }
 
